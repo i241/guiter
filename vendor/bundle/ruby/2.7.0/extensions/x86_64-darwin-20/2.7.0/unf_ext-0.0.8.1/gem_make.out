@@ -1,0 +1,16 @@
+current directory: /Users/potepankyanpu/guiter/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+/Users/potepankyanpu/.rbenv/versions/2.7.5/bin/ruby -I /Users/potepankyanpu/.rbenv/versions/2.7.5/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220406-91639-12mpd5d.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/potepankyanpu/guiter/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /Users/potepankyanpu/guiter/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/potepankyanpu/guiter/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20220406-91639-1j54461

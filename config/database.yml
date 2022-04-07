@@ -81,7 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: guiter_production
-  username: guiter
-  password: <%= ENV['GUITER_DATABASE_PASSWORD'] %>
   url: <%= ENV['JAWSDB_URL']&.sub('mysql://', 'mysql2://') %>

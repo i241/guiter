@@ -59,8 +59,3 @@ gem 'devise'
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 gem "bulma-rails"
-
-group :development, :production, :test do
-  gem 'devise'
-  gem 'jquery-rails'
-end
